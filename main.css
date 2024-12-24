@@ -1,0 +1,31 @@
+*{
+    margin: auto;
+}
+.fcontainer{
+    display:flex;
+    flex-wrap:wrap;
+    height:1200px;
+    width:1200px;
+   background-color: black;
+ }
+.main{
+height: 370px;
+width: 375px;
+background-color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

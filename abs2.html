@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abs2.html</title>
+<style>
+.fcontaniner{
+    height: 400px;
+    width: 400px;
+   border: 2px solid black;
+    padding: 10px; 
+}
+.main{
+   height: 200px;
+   width: 200px;
+   border: 1px solid black;
+}
+.main2 .col{
+   height: 100px;
+   width: 100px;
+    border: 1px solid black;
+} 
+.main2{
+      position: relative;
+}
+.col1{
+    background-color: green;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: -1;
+}
+.col2{
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+   <div class="fcontaniner">
+   <div class="main main1"></div>
+   <div class="main main2">
+        <div class="col col1"></div>
+        <div class="col col2"></div>
+   </div>
+</div>
+</body>
+</html>

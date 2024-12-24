@@ -1,0 +1,56 @@
+.row .col{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid cornflowerblue; */
+    margin: 10px;
+    /* border-radius: 3px; */
+}
+.row .col1 .card{
+       height: inherit;
+       border: 2px solid red;
+}
+.row .col1 .card .imgDiv{
+   height: 220px;
+   /* border: 1px solid black; */
+   /* background-color: yellow */
+}
+.row .col1 .card.imgDiv img{
+   /* position: relative; */
+   /* left:50px; */
+   height: 210px;
+}
+.row .col1 .card .content{
+ height: 70px;
+ /* border: 1px solid black; */
+position: relative;
+top: 5px;
+}
+.row .col1 .card.content h2{
+    background-color: yellow;
+    position: relative;
+    top: -12px;
+    text-align: center;
+}
+.row .cold1 .card .content p{
+    background-color: orangered;
+  position: relative;
+  top: -35px;
+  text-align: center;
+  padding: 5px;
+}
+.row .col2{
+background-color: green;
+position:relative;
+left: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
